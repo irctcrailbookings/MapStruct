@@ -1,0 +1,14 @@
+package myLoopClass2;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		int x = 0;
+		// We can define multiple varibale in for loop
+		for(int y=0, j = 5, k=8; x <5 ; y++) {
+			// Redeclaration of a variable in initialization block which is already define is not possible.
+		}
+
+	}
+
+}

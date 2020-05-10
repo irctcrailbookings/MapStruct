@@ -1,0 +1,19 @@
+package myLogic;
+
+import java.util.Set;
+
+public class Java8Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	} 
+	
+	public static Set<Java8DTo> getUserList(){
+		
+		for(int i =0; i<4; i++) {
+			
+		}
+	}
+
+}

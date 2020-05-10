@@ -1,0 +1,23 @@
+
+public class Jva {
+
+	public static void main(String[] args) {
+		int arr[]= {5,9,8,6,99};
+	}
+	public static int highestOdd(int[] arr, int index) {
+        // When last Integer is odd.
+        if (index == arr.length - 1 && arr[index] % 2 != 0) {
+            return arr[index];
+        }
+        // When last Integer is even.
+        else if(index == arr.length - 1)
+            return Integer.MIN_VALUE;
+
+        int high = highestOdd(arr, index+1);
+        //Update high only when current index has odd.
+        if(arr[index]%2 != 0){
+            high = high > arr[index] ? high : arr[index];
+        }
+        return high;
+    }
+}

@@ -1,0 +1,16 @@
+package myLogic;
+
+public class MyAssignmentTwo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void leapYear(int number) {
+
+	}
+
+	
+
+}

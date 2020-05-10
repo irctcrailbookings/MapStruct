@@ -1,0 +1,14 @@
+package myLoopClass2;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		int x = 0;
+		
+		for(int y=0, x = 5; x <5 ; y++) {
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package myLogic;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Java8Main {
+
+	public static void main(String[] args) {
+		getUserList().forEach((c) -> {
+			Java8DTo j = new Java8DTo();
+			j.setUserId(c.getUserId());
+		});
+
+	} 
+	
+	public static Set<Java8DTo> getUserList(){
+		Set<Java8DTo> s = new HashSet<Java8DTo>();
+		for(int i =0; i<4; i++) {
+			Java8DTo j = new Java8DTo();
+			j.setUserId(i+"");
+			j.setUserName("Subhash");
+			s.add(j);
+		}
+		return s;
+	}
+
+}
